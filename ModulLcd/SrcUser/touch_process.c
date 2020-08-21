@@ -15,7 +15,7 @@ void tp_doProcessMain(void)
 {
 	char str[100]; // buffer for string
 
-	// if was touch -> make all we want -> it's not IRQ handler routine
+	// if was touching -> make all we want -> it's not IRQ handler routine
 	if (td.was_touch) 
 	{
 		// unblock event
