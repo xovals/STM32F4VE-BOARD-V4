@@ -1,0 +1,12 @@
+-- скопировать локальный репо на сервер
+git remote add origin https://github.com/xovals/STM32F4VE-BOARD-V4.git
+git push -u origin master
+-- скопировать файлы на сервер (синхронизироваться)
+git push
+-- забрать файлы с сервера (синхронизироваться)
+git pull
+-- новый коммит
+git commit -m 'Base project'
+-- обновить последний коммит
+git commit -am 'Base project'
+
